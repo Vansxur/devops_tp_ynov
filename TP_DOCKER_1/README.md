@@ -16,3 +16,9 @@ Status: Downloaded newer image for nginx:latest
 docker.io/library/nginx:latest
 ```
 
+# 3b : sudo docker images
+
+```
+REPOSITORY   TAG       IMAGE ID       CREATED        SIZE
+nginx        latest    ac8efec875ce   11 hours ago   142MB
+```
