@@ -22,3 +22,10 @@ docker.io/library/nginx:latest
 REPOSITORY   TAG       IMAGE ID       CREATED        SIZE
 nginx        latest    ac8efec875ce   11 hours ago   142MB
 ```
+
+# 3c : mkdir html
+# cd html 
+# touch index.html
+# echo "Hello World" >> index.html
+
+
