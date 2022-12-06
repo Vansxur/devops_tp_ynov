@@ -24,9 +24,9 @@ nginx        latest    ac8efec875ce   11 hours ago   142MB
 ```
 
 # 3c : mkdir html
-cd html 
-touch index.html
-echo "Hello World" >> index.html
+- cd html 
+- touch index.html
+- echo "Hello World" >> index.html
 
 
 
