@@ -46,6 +46,8 @@ Puis : sudo docker kill c5cd94537900
  
 # 4b : sudo docker build -t webserver .
 
+# 4b : sudo docker run -it --rm -d -p 8080:80 --name web webserver
+
 # 4c : mount ou copy.
 
 - La solution mount se fait en ligne de commande et nécessite un chemin d'accès exact.
