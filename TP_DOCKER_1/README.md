@@ -41,3 +41,6 @@ Puis : sudo docker kill c5cd94537900
 
 # 3f : sudo docker run -it --rm -d -p 8080:80 --name web nginx
  
+ 
+# 4c : sudo docker build -t webserver .
+
