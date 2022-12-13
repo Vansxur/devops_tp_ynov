@@ -30,3 +30,13 @@ nginx        latest    ac8efec875ce   11 hours ago   142MB
 
 # 3d : sudo docker run -it --rm -d -p 8080:80 --name web -v $(pwd)/html/:/usr/share/nginx/html nginx
 
+
+# 3e : sudo docker ps 
+```
+CONTAINER ID   IMAGE     COMMAND                  CREATED              STATUS              PORTS                                   NAMES
+c5cd94537900   nginx     "/docker-entrypoint.…"   About a minute ago   Up About a minute   0.0.0.0:8080->80/tcp, :::8080->80/tcp   web
+```
+
+Puis : sudo docker kill c5cd94537900
+
+
