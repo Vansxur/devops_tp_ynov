@@ -39,4 +39,5 @@ c5cd94537900   nginx     "/docker-entrypoint.…"   About a minute ago   Up Abou
 
 Puis : sudo docker kill c5cd94537900
 
-
+# 3f : sudo docker run -it --rm -d -p 8080:80 --name web nginx
+ 
