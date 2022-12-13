@@ -40,7 +40,18 @@ c5cd94537900   nginx     "/docker-entrypoint.…"   About a minute ago   Up Abou
 Puis : sudo docker kill c5cd94537900
 
 # 3f : sudo docker run -it --rm -d -p 8080:80 --name web nginx
+
+# 3f : sudo docker cp $(pwd)/html/index.html index.html:/usr/share/nginx/html
  
  
-# 4c : sudo docker build -t webserver .
+# 4b : sudo docker build -t webserver .
+
+# 4c : mount ou copy.
+
+- La solution mount se fait en ligne de commande et nécessite un chemin d'accès exact.
+- La solution copy, elle, permet d'utiliser le chemin actuel comme chemin d'accès. 
+
+- La solution mount est plus sécurisée, puisqu'on est sûr d'utiliser le bon dossier. Mais nécessite d'être tapée et sans fautes.
+
+- La solution copy permet de ne pas retaper le path à chaque fois, mais peut être mal utilisée si le fichier est placé au mauvais endroit.
 
