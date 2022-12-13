@@ -28,5 +28,5 @@ nginx        latest    ac8efec875ce   11 hours ago   142MB
 - touch index.html
 - echo "Hello World" >> index.html
 
-
+# 3d : sudo docker run -it --rm -d -p 8080:80 --name web -v $(pwd)/html/:/usr/share/nginx/html nginx
 
